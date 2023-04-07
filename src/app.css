@@ -1,0 +1,224 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+body {
+    background-color: #22223b;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.nav-content::after {
+    content: "";
+    width: 0px;
+    height: 0px;
+    background-color: #ffb703;
+    position: absolute;
+    border-radius: 50%;
+    bottom: 0;
+    right: 40%;
+}
+
+.nav-content:hover::after {
+    content: "";
+    width: 6px;
+    height: 6px;
+    background-color: #ffb703;
+    position: absolute;
+    border-radius: 50%;
+    bottom: 0;
+    right: 40%;
+
+}
+
+.nav-button {
+    background-color: #ffb703;
+}
+
+.scroll {
+    color: #ffb703;
+
+}
+
+.name::after {
+    content: "";
+    width: 60px;
+    height: 8px;
+    background-color: #ffb703;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+@media(max-width:639px) {
+    .name::after {
+        content: "";
+        width: 20px !important;
+        height: 3px !important;
+        background-color: #ffb703;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+    }
+}
+
+@media(max-width:1023px) {
+    .name::after {
+        content: "";
+        width: 40px;
+        height: 5px;
+        background-color: #ffb703;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+    }
+}
+
+@media(max-width:1023px) {
+    .name::after {
+        content: "";
+        width: 40px;
+        height: 5px;
+        background-color: #ffb703;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+    }
+}
+
+.nav-bg {
+    background-color: #22223b;
+}
+
+.demo-container {
+    display: none;
+    z-index: 99999;
+    transition: opacity 0.25s ease;
+
+}
+
+.active {
+    display: block;
+    top: 0;
+}
+
+.contact-pop {
+    background: radial-gradient(#1b1b42, #848383)
+}
+
+.aspark {
+    animation-delay: 0.2s;
+
+}
+
+.google {
+    animation-delay: 0.4s;
+
+}
+
+.bidhee {
+    animation-delay: 0.6s;
+}
+
+.phone-number::-webkit-outer-spin-button,
+.phone-number::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.microsoft {
+    animation-delay: 0.8s;
+}
+
+
+.project-two {
+    background: url(/videos/academy\ grade.mp4)
+}
+
+@keyframes bounceRight {
+
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+        -ms-transform: translateX(0);
+        transform: translateX(0);
+    }
+
+    40% {
+        -ms-transform: translateX(-7px);
+        transform: translateX(-7px);
+    }
+
+    60% {
+        -ms-transform: translateX(-5px);
+        transform: translateX(-5px);
+    }
+}
+
+.arrow {
+    -webkit-animation: bounceRight 2s infinite;
+    animation: bounceRight 2s infinite;
+}
+
+
+
+.address,
+.social-media,
+.contact-info {
+    background: linear-gradient(132deg, #848383, #1b1b42);
+}
+
+.address:hover,
+.social-media:hover,
+.contact-info:hover {
+    background: linear-gradient(132deg, #ffb8039c, #1b1b42);
+}
+
+.prev_arrow {
+    position: absolute;
+    padding: 12px;
+    border-radius: 50%;
+    top: 40%;
+    left: -4%;
+    z-index: 1;
+    font-size: small;
+    color: white;
+    cursor: pointer;
+
+}
+
+.next_arrow {
+    position: absolute;
+    padding: 12px;
+    border-radius: 50%;
+    z-index: 1;
+    right: -4%;
+    font-size: small;
+    color: white;
+    top: 40%;
+    cursor: pointer;
+}
+
+@media(max-width: 1210px) {
+
+    .prev_arrow {
+        display: none !important;
+
+    }
+
+    .next_arrow {
+        display: none !important;
+
+    }
+}

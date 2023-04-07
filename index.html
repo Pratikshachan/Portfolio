@@ -1,0 +1,817 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+    <link rel="stylesheet" href="./dist/output.css">
+    <link rel="stylesheet" href="/src/app.css">
+</head>
+
+<body>
+    <nav class="nav-container fixed w-full z-50">
+        <div class="flex px-4 md:px-12 lg:px-20 py-6 items-center">
+            <div class="lg:hidden block">
+                <button
+                    class="flex w-14 h-14 mr-12 items-center justify-center navbar-burger border border-gray-400 hover:border-gray-500 transform hover:rotate-45 rounded-full transition duration-300">
+                    <svg width="32" height="12" viewBox="0 0 32 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="32" height="2" fill="#ffb703"></rect>
+                        <rect y="10" width="19" height="2" fill="#ffb703"></rect>
+                    </svg>
+                </button>
+            </div>
+            <a class="inline-block text-2xl font-bold" href="index.html">
+                <img class="h-14" src="/image/logo.png" alt="">
+            </a>
+            <div class="hidden lg:flex items-center ml-auto">
+                <div class="">
+                    <ul class="hidden xl:flex items-center">
+                        <li class=" mr-16"><a
+                                class="nav-content relative py-4  inline-block  text-xl font-normal text-white"
+                                href="#projects">Projects</a></li>
+
+                        <li class="mr-10"><a
+                                class="nav-content relative py-4 inline-block  text-xl font-normal text-white"
+                                href="#about-me">About</a></li>
+                    </ul>
+                </div>
+                <div class="w-px h-12 mx-6 bg-gray-50"></div>
+                <a id="contact"
+                    class="relative group inline-flex h-10 w-24 items-center justify-center font-semibold rounded-lg border border-gray-400 overflow-hidden"
+                    href="#">
+                    <span class="relative z-10 text-white group-hover:text-black transition duration-500">Contact</span>
+                    <div class="nav-button absolute top-0 left-0 h-full w-28 transform -translate-x-full -ml-1 group-hover:-translate-x-0 
+                         transition duration-500 ease-linear">
+                    </div>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="relative pt-32 2xl:pt-60 bg-[#2c2d47] ">
+        <div class="intro-container md:flex px-5 lg:px-20 xl:px-28">
+            <div class="w-full relative md:flex md:1/2 lg:w-3/5">
+                <div class="absolute top-28 md:top-20 lg:top-28 xl:top-36 w-full">
+                    <h1 class=" text-xl uppercase sm:text-4xl md:text-xl lg:text-4xl xl:text-[42px] text-white font-heading
+                                mb-18">
+                        Pratiksha
+                    </h1>
+                    <h1 class=" name pb-3 sm:pb-5 md:pb-3 lg:pb-7 relative text-xl md:text-xl uppercase sm:text-4xl mt-2  md:mt-4 lg:text-4xl xl:text-[42px] text-white font-heading
+                                mb-18">
+                        Chapagai
+                    </h1>
+                    <div class="h-full w-full pt-48 sm:pt-60 md:pt-36 lg:pt-48 xl:pt-56 flex items-center">
+                        <ul class="flex">
+                            <li class="mr-5"><a target="_blank" href="https://www.facebook.com/yua.chan.33"><i
+                                        class=" text-gray-500 text-xl hover:text-[#ffb703] sm:text-3xl lg:text-3xl md:text-xl  fa-brands fa-facebook-f"></i></a>
+                            </li>
+                            <li class="mr-5"><a target="_blank"
+                                    href="https://l.facebook.com/l.php?u=https%3A%2F%2Finstagram.com%2Fig_izumi.don%3Figshid%3DYmMyMTA2M2Y%253D%26fbclid%3DIwAR2j0upXK66IXt7CNlBRs3V0BLg7P6SsJ3QL8EoWmklUxtIVWCWxbS9s3Fw&h=AT3B7SW_yXagU85PjHnWaO-RD6zZGoht4qdgTN_vJsRVAjbc1CSurTLOptOrRp6QN4TkrssX-riK2WQN__VhjO6_zJhC52lc835tRAfim8PGlf2Aup6aeBAHe01sHvA03urDNg"><i
+                                        class="text-gray-500 text-xl hover:text-[#ffb703]  sm:text-3xl lg:text-3xl md:text-xl fa-brands fa-instagram"></i></a>
+                            </li>
+                            <li class="mr-5"><a target="_blank"
+                                    href="https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fpratiksha-chapagai-0762aa232%3Ffbclid%3DIwAR2lALaFHkJlMiwRlTms_FxC_x9gNkvN2ufdaht7OdnOGXAfjFmPKKwt5UE&h=AT3B7SW_yXagU85PjHnWaO-RD6zZGoht4qdgTN_vJsRVAjbc1CSurTLOptOrRp6QN4TkrssX-riK2WQN__VhjO6_zJhC52lc835tRAfim8PGlf2Aup6aeBAHe01sHvA03urDNg"><i
+                                        class="text-gray-500 hover:text-[#ffb703]  text-xl md:text-xl lg:text-3xl sm:text-3xl fa-brands fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class=" flex w-full justify-end"><img class="w-4/5 md:h-9/12 lg:h-[580px] object-top object-cover"
+                        src="/image/intro-image.png">
+                </div>
+            </div>
+            <div class="relative flex pb-5 pt-10 md:py-0 justify-center items-center w-full md:1/2 lg:w-2/5">
+                <div class="md:px-5 md:pl-16">
+                    <div class="inline-flex items-center mb-8">
+                        <span class="inline-block text-[#f5cb5c] mr-3">
+                            <i class="fa-solid fa-minus"></i>
+                        </span>
+                        <span class="uppercase text-xs text-[#ffb703] font-medium">Introduction</span>
+                    </div>
+                    <h1 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-white font-heading
+                                mb-18">
+                        A Frontend Designer And Developer
+                    </h1>
+                    <p class="text-md pt-5 text-[#8b8c89] mb-18">Proficient with HTML,
+                        CSS and JS with extensive knowledge of UX and user
+                        psychology.</p>
+                    <a class="group mt-8 ml-2 relative inline-block h-10 w-full bg-blueGray-900 rounded"
+                        href="./Pratiksha's Resume.pdf" download>
+                        <div
+                            class="absolute top-0 left-0 transform -translate-y-1 -translate-x-1 w-full h-full group-hover:translate-y-0 group-hover:translate-x-0 transition duration-300">
+                            <div class=" scroll h-full w-full items-center justify-center rounded">
+                                <span class="text-xl font-semibold uppercase">Download CV<span class="ml-3"><i
+                                            class="fa-solid animate-bounce fa-download"></i></span></span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <section class="lg:py-36 md:pt-20 py-10 bg-[#2c2d47]">
+        <h1
+            class="px-5 text-2xl sm:text-3xl text-white md:text-3xl xl:text-4xl sm:text-center font-heading mb-8 sm:mb-20">
+            Trusted By
+        </h1>
+        <div class="intro-container md:flex px-5 lg:px-20 xl:px-28">
+            <div class="w-full flex flex-wrap justify-center">
+                <a href="https://asparksys.com/" class="w-1/2 md:w-[25%] px-6 mb-16 xl:mb-0">
+                    <div
+                        class="aspark transition ease-in-out delay-150 hover:-translate-y-1 hover:bg-[#4a4e69] duration-300 rounded-lg mx-auto py-7">
+                        <img class="h-6 mx-auto" src="/image/aspark.svg" alt="">
+                    </div>
+                </a>
+                <a href="https://www.bidhee.com/" class="w-1/2 md:w-[25%] px-6 mb-16 xl:mb-0">
+                    <div
+                        class="bidhee  transition ease-in-out delay-150 hover:-translate-y-1 hover:bg-[#4a4e69] duration-300 rounded-lg  mx-auto py-6">
+                        <img class="h-8 mx-auto" src="/image/bidhee.png" alt="">
+                    </div>
+                </a>
+                <a href="http://merograde.com/" class=" w-1/2 md:w-[25%] px-6 mb-16 xl:mb-0">
+                    <div
+                        class="google transition ease-in-out delay-150 hover:-translate-y-1 hover:bg-[#4a4e69] duration-300 rounded-lg mx-auto py-6">
+                        <img class="h-8 mx-auto" src="/image/merograde.png" alt="">
+                    </div>
+                </a>
+                <a href="#" class="w-1/2 md:w-[25%] px-6 nmb-16 xl:mb-0">
+                    <div
+                        class="microsoft  transition ease-in-out delay-150 hover:-translate-y-1 hover:bg-[#4a4e69] duration-300 rounded-lg mx-auto py-7">
+                        <img class="h-6 mx-auto" src="/image/microsoft.png" alt="">
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section> -->
+
+
+
+    <div class="hidden navbar-menu fixed top-0 left-0 bottom-0 w-5/6 max-w-sm z-50">
+        <div class="navbar-backdrop fixed inset-0 backdrop-blur-xl backdrop-filter bg-gray-900 bg-opacity-80">
+        </div>
+        <nav class="relative pt-8 pb-8 bg-white h-full overflow-y-auto">
+            <div class="flex flex-col px-6 h-full">
+                <a class="inline-block text-2xl font-bold ml-8 mb-16" href="#">
+                    <img src="suncealand-assets/logos/suncealand-dark.svg" alt="">
+                </a>
+                <ul class="w-full mb-auto pb-16">
+                    <li class="group mb-6">
+                        <button class="inline-block text-left text-base font-medium text-black">
+                            <div class="flex items-center">
+                                <span class="mr-3">Resources</span>
+                                <svg width="12" height="7" viewBox="0 0 12 7" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M11.332 0.999974L10.3887 0.0566406L6.66536 3.77997L5.9987 4.5L5.33203 3.77997L1.6087 0.0566402L0.665365 0.999974L5.9987 6.33331L11.332 0.999974Z"
+                                        fill="currentColor"></path>
+                                </svg>
+                            </div>
+                        </button>
+                        <div class="hidden group-hover:block pt-4">
+                            <div class="pl-6"><a class="block mb-2 text-black" href="#">Link 1</a><a
+                                    class="block mb-2 text-black" href="#">Link 1</a><a class="block text-black"
+                                    href="#">Link 1</a></div>
+                        </div>
+                    </li>
+                    <li class="mb-6"><a class="inline-block text-base font-medium text-black" href="#">Community</a>
+                    </li>
+                    <li class="mb-6"><a class="inline-block text-base font-medium text-black" href="#">Story</a>
+                    </li>
+                    <li><a class="inline-block text-base font-medium text-black" href="#">Pricing</a></li>
+                </ul>
+                <div class="w-full">
+                    <a class="relative group inline-flex h-12 w-full mb-4 items-center justify-center font-semibold rounded-lg bg-white border border-black"
+                        href="#">
+                        <span class="text-black">Login</span>
+                    </a>
+                    <a class="relative inline-flex h-12 w-full mb-4 items-center justify-center font-semibold rounded-lg bg-blue-500"
+                        href="#">
+                        <span class="text-black">Logout</span>
+                    </a>
+                    <p class="pl-2 text-sm">2022 © Shuffle</p>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+
+    <!-- contact pop--uppp -->
+    <div
+        class="demo-container fixed top-0 left-0 w-full h-full px-4 py-10 md:py-10 bg-gray-900 bg-opacity-50 overflow-y-auto">
+        <div class="contact-pop max-w-xl overflow-y-auto p-6 shadow-2xl sm:p-10 mx-auto rounded-lg">
+            <div class="flex mb-12 justify-between">
+                <h2 class="text-2xl lg:text-3xl font-medium text-[#ffb703] font-heading">Contact Me</h2>
+                <div class=" flex justify-end"> <span class="hide cursor-pointer text-black"><i
+                            class="fa-solid fa-xmark"></i></span>
+                </div>
+            </div>
+            <form class="form" action="#" onsubmit="sendEmail(e); reset(); return false;" method="POST">
+                <div class="flex flex-wrap -mx-4 mb-8">
+                    <div class="w-full md:w-1/2 px-4 mb-8 md:mb-0">
+                        <label class="block mb-2 text-coolGray-800 font-medium leading-6" for="">Full Name</label>
+                        <input
+                            class="block h-12 w-full py-2 px-3 appearance-none border border-gray-300 rounded-lg drop-shadow-2xl leading-6 placeholder-coolGray-300 focus:outline-none focus:shadow-outline focus:ring-2 focus:ring-blue-600 focus:ring-opacity-50"
+                            type="text" name="name" placeholder="Your Full Name" required>
+                    </div>
+                    <div class="w-full md:w-1/2 px-4">
+                        <label class="block mb-2 text-coolGray-800 font-medium leading-6" for="">Phone Number</label>
+                        <input
+                            class="phone-number block h-12 w-full py-2 px-3 appearance-none border border-gray-300 rounded-lg drop-shadow-2xl text-coolGray-300 leading-6 placeholder-coolGray-300 focus:outline-none focus:shadow-outline focus:ring-2 focus:ring-blue-600 focus:ring-opacity-50"
+                            type="number" name="phone-number" placeholder="Contact number" required>
+
+                    </div>
+                </div>
+                <div class="mb-8">
+                    <label class="block mb-2 text-coolGray-800 font-medium leading-6" for="">Email</label>
+                    <input
+                        class="block h-12 w-full py-2 px-3 appearance-none border border-gray-300 rounded-lg drop-shadow-2xl text-coolGray-300 leading-6 placeholder-coolGray-300 focus:outline-none focus:shadow-outline focus:ring-2 focus:ring-blue-600 focus:ring-opacity-50"
+                        type="email" id="email" name="email" placeholder="Your Email" required>
+                </div>
+                <div class="mb-8">
+                    <label class="block mb-2 text-coolGray-800 font-medium leading-6" for="">Message</label>
+                    <textarea
+                        class="block h-35 w-full py-2 px-3 appearance-none border border-gray-300 drop-shadow-2xl rounded-lg leading-6 placeholder-coolGray-300 focus:outline-none focus:shadow-outline focus:ring-2 focus:ring-blue-600 focus:ring-opacity-50 resize-none"
+                        type="text" id="message" name="message"></textarea>
+                </div>
+                <div class="mb-8">
+                </div>
+                <div class="mb-8">
+                </div>
+                <button
+                    class="contact-send bg-[#ffb703] inline-block py-3 px-7 w-full text-base text-green-50 font-medium text-center leading-6 rounded-md shadow-sm">Send</button>
+            </form>
+        </div>
+    </div>
+
+    <section id="skills" class="lg:mb-28 bg-[#161627]">
+        <div class="skills-container px-5 pb-5 pt-20 md:py-32 lg:px-20 xl:px-28">
+            <div class="md:flex w-full mx-auto mb-12 lg:mb-20">
+                <div class="w-full md:w-2/5">
+                    <div class="inline-flex pb-4 items-center">
+                        <span class="inline-block text-[#ffb703] mr-3">
+                            <i class="fa-solid fa-minus"></i>
+                        </span>
+                        <span class="uppercase text-xs text-[#ffb703] font-medium">Skills</span>
+                    </div>
+                    <h1 class="hidden md:block text-2xl sm:text-3xl md:text-3xl lg:text-4xl xl:text-4xl text-white font-heading
+                            pb-2">
+                        Experienced Skills & Frameworks </h1>
+                    <p class="hidden md:block text-md pt-8 text-[#8b8c89] mb-18">If you have any type of query, feel
+                        free to contact
+                        me.
+                    </p>
+                    <div class="hidden md:block">
+                        <a class="flex mt-5 relative h-10 w-full sm:w-40  text-[#ffb703] rounded"
+                            href="mailto:pratiksha.chapagai5@gmail.com">
+                            pratiksha.chapagai5@gmail.com <span class="arrow text-[#ffb703] ml-3">&#8594</span>
+                        </a>
+                    </div>
+                </div>
+                <div class=" relative w-full md:pl-32 pt-5 order-1 md:order-2 md:w-3/5">
+                    <span class="absolute"><img src="/image/quote.png"></span>
+                    <h1 class="text-xl indent-16 sm:text-2xl pt-8 md:text-3xl text-white font-heading
+                            mb-18">&nbspYou can't use up the creativity, rather using it to greater extent enchances
+                        your
+                        mind.
+                    </h1>
+                    <div class="w-full pt-8 flex justify-center">
+                        <div class="w-full px-4 md:px-0 mb-12">
+                            <h4 class="text-[#ffb703] pb-2 font-semibold text-3xl sm:text-4xl">10</h4>
+                            <span class="intro-paragraph text-white">Projects Completed</span>
+                        </div>
+                        <div class="w-full px-4 md:px-0 mb-12">
+                            <h4 class="text-[#ffb703] pb-2 font-semibold text-3xl sm:text-4xl">1</h4>
+                            <span class="intro-paragraph text-white ">Year Experienced</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class=" lg:-mb-64">
+                <div class="slider flex flex-wrap">
+                    <a
+                        class="relative cursor-pointer group inline-flex rounded w-full lg:w-1/3 px-4 mb-8 overflow-hidden">
+                        <div class="bg-[#363852] relative py-12 px-6 rounded transition duration-500 ">
+                            <div class="flex z-10 items-center relative">
+                                <img class="w-12 h-12 mx-auto" src="/image/html-5.png">
+                                <div class="pl-7">
+                                    <h3 class="text-md text-white group-hover:text-black font-bold">
+                                        HTML
+                                    </h3>
+                                    <p class="text-md pt-4 group-hover:text-black text-[#8b8c89]  leading-normal">
+                                        Team
+                                        members will be up to date
+                                        on
+                                        the
+                                        project</p>
+                                </div>
+                            </div>
+                            <div class="bg-[#f5cb5c] absolute rounded top-0 left-0 h-full w-full transform translate-y-full  group-hover:translate-y-0 
+                     transition duration-500 ease-linear">
+                            </div>
+                        </div>
+                    </a>
+                    <a
+                        class="relative group cursor-pointer inline-flex rounded w-full lg:w-1/3 px-4 mb-8 overflow-hidden">
+                        <div
+                            class="bg-[#363852] relative py-12 px-6 group-hover:text-black rounded transition duration-500 ">
+                            <div class="flex z-10 items-center relative">
+                                <img class="w-12 h-12 mx-auto" src="/image/css.png">
+                                <div class="pl-7">
+                                    <h3 class="group-hover:text-black text-md text-white font-bold">CSS
+                                    </h3>
+                                    <p class="group-hover:text-black text-md pt-4 text-[#8b8c89]  leading-normal">
+                                        Team
+                                        members will be up to date
+                                        on
+                                        the
+                                        project</p>
+                                </div>
+                            </div>
+                            <div class="bg-[#f5cb5c] rounded absolute top-0 left-0 h-full w-full transform translate-y-full  group-hover:translate-y-0 
+                     transition duration-500 ease-linear">
+                            </div>
+                        </div>
+                    </a>
+                    <a
+                        class="relative group cursor-pointer inline-flex rounded w-full lg:w-1/3 px-4 mb-8 overflow-hidden">
+                        <div
+                            class="bg-[#363852] relative py-12 px-6 group-hover:text-black rounded transition duration-500 ">
+                            <div class="flex z-10 items-center relative">
+                                <img class="w-12 h-12 group-hover:border mx-auto" src="/image/js.png">
+                                <div class="pl-7">
+                                    <h3 class="group-hover:text-black text-md text-white font-bold">JS
+                                    </h3>
+                                    <p class="group-hover:text-black text-md pt-4 text-[#8b8c89] leading-normal">
+                                        Team
+                                        members will be up to date
+                                        on
+                                        the
+                                        project</p>
+                                </div>
+                            </div>
+                            <div class="bg-[#f5cb5c] absolute top-0 left-0 h-full w-full transform translate-y-full  group-hover:translate-y-0 
+                     transition duration-500 rounded ease-linear">
+                            </div>
+                        </div>
+                    </a>
+                    <a
+                        class="relative group cursor-pointer inline-flex rounded w-full lg:w-1/3 px-4 mb-8 overflow-hidden">
+                        <div
+                            class="bg-[#363852] relative py-12 px-6 group-hover:text-black rounded transition duration-500 ">
+                            <div class="flex z-10 items-center relative">
+                                <img class="w-12 h-12 mx-auto" src="/image/tailwind.png">
+                                <div class="pl-7">
+                                    <h3 class="group-hover:text-black text-md text-white font-bold">Tailwind(Framework)
+                                    </h3>
+                                    <p class="group-hover:text-black text-md pt-4 text-[#8b8c89]  leading-normal">
+                                        Team
+                                        members will be up to date
+                                        on
+                                        the
+                                        project</p>
+                                </div>
+                            </div>
+                            <div class="bg-[#f5cb5c] rounded absolute top-0 left-0 h-full w-full transform translate-y-full  group-hover:translate-y-0 
+                 transition duration-500 ease-linear">
+                            </div>
+                        </div>
+                    </a>
+                    <a
+                        class="relative group cursor-pointer inline-flex rounded w-full lg:w-1/3 px-4 mb-8 overflow-hidden">
+                        <div
+                            class="bg-[#363852] relative py-12 px-6 group-hover:text-black rounded transition duration-500 ">
+                            <div class="flex z-10 items-center relative">
+                                <img class="w-12 h-12 mx-auto" src="/image/bootstrap.png">
+                                <div class="pl-7">
+                                    <h3 class="group-hover:text-black text-md text-white font-bold">Bootstrap(Framework)
+                                    </h3>
+                                    <p class="group-hover:text-black text-md pt-4 text-[#8b8c89]  leading-normal">
+                                        Team
+                                        members will be up to date
+                                        on
+                                        the
+                                        project</p>
+                                </div>
+                            </div>
+                            <div class="bg-[#f5cb5c] rounded absolute top-0 left-0 h-full w-full transform translate-y-full  group-hover:translate-y-0 
+             transition duration-500 ease-linear">
+                            </div>
+                        </div>
+                    </a>
+                    <a
+                        class="relative group cursor-pointer inline-flex rounded w-full lg:w-1/3 px-4 mb-8 overflow-hidden">
+                        <div
+                            class="bg-[#363852] relative py-12 px-6 group-hover:text-black rounded transition duration-500 ">
+                            <div class="flex z-10 items-center relative">
+                                <img class="w-12 h-12 mx-auto" src="/image/wordpress.png">
+                                <div class="pl-7">
+                                    <h3 class="group-hover:text-black text-md text-white font-bold">Wordpress
+                                    </h3>
+                                    <p class="group-hover:text-black text-md pt-4 text-[#8b8c89]  leading-normal">
+                                        Team
+                                        members will be up to date
+                                        on
+                                        the
+                                        project</p>
+                                </div>
+                            </div>
+                            <div class="bg-[#f5cb5c] rounded absolute top-0 left-0 h-full w-full transform translate-y-full  group-hover:translate-y-0 
+             transition duration-500 ease-linear">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- projectsss -->
+    <section id="projects" class="pt-16 pb-20 md:pt-32 md:pb-0">
+        <div class="project-container px-5 lg:px-20 xl:px-28">
+            <div class="flex flex-wrap items-center mb-12 lg:mb-16">
+                <div class="w-full sm:w-1/2 lg:w-[65%]">
+                    <div class="max-w-lg">
+                        <div class="inline-flex pb-4 items-center">
+                            <span class="inline-block text-[#ffb703] mr-3">
+                                <i class="fa-solid fa-minus"></i>
+                            </span>
+                            <span class="uppercase text-xs text-[#ffb703] font-medium">Projects</span>
+                        </div>
+                        <h1 class="text-2xl sm:text-3xl md:text-3xl lg:text-4xl xl:text-5xl text-white font-heading
+                                pb-2">
+                            All Creative Works,</h1>
+                        <h1
+                            class="text-2xl sm:text-3xl md:text-3xl lg:text-4xl xl:text-5xl text-white font-heading mb-18">
+                            Selected Projects.
+                        </h1>
+
+                        <p class="text-md pt-8 text-[#8b8c89] mb-18">Lorem ipsum dolor sit amet consectetur
+                            adipisicing
+                            elit.
+                            Nesciunt quam
+                            ducimus vero voluptatum nam possimus alias fugiat exercitationem reiciendis sint.</p>
+                        <a class="scroll mt-5 relative inline-block h-10 w-full sm:w-40 bg-blueGray-900 rounded"
+                            href="#">
+                            more &#8594
+                        </a>
+                    </div>
+                </div>
+                <a href="#" class="w-full pt-5 sm:w-1/2 lg:w-[35%] sm:pl-10  ">
+                    <div
+                        class="w-full h-96 rounded-lg shadow-2xl border border-slate-700 flex overflow-hidden items-end">
+                        <video
+                            class="lg:w-[93%] hover:lg:w-[90%] opacity-90 hover:opacity-100 hover:lg:h-[68%] object-center h-[70%] scale-125 object-cover rounded-t-lg  -rotate-3"
+                            autoplay loop muted plays-inline src="/videos/password generator.mp4"></video>
+                    </div>
+                </a>
+            </div>
+            <div class="flex flex-wrap sm:pt-10">
+                <a href="#" class="w-full sm:w-1/2 mb-12 md:pr-10 sm:pr-5 lg:pr-20">
+                    <div
+                        class="project-two w-full h-96 rounded-lg shadow-2xl border border-slate-700 flex overflow-hidden items-end">
+                        <video
+                            class="lg:w-[92%] hover:lg:w-[90%] opacity-90 hover:opacity-100 hover:lg:h-[68%] h-[70%] scale-125 object-cover rounded-t-lg -rotate-3"
+                            autoplay loop muted plays-inline src="/videos/academy grade.mp4"></video>
+                    </div>
+                </a>
+                <a href="#" class="w-full sm:w-1/2 md:pl-10 sm:pl-5 lg:pl-20 ">
+                    <div
+                        class="w-full h-96 rounded-lg shadow-2xl border border-slate-700 flex overflow-hidden items-end">
+                        <video
+                            class=" lg:w-[92%] hover:lg:w-[90%] opacity-90 hover:opacity-100 hover:lg:h-[68%] h-[70%] scale-125 object-cover rounded-t-lg -rotate-3 "
+                            autoplay loop muted plays-inline src="/videos/academy grade.mp4"></video>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about-me" class="md:pb-32 md:pt-32 overflow-hidden">
+        <div class="about-container px-5 lg:px-20 xl:px-28">
+            <div class="inline-flex pb-36 lg:pb-20 items-center">
+                <span class="inline-block text-[#ffb703] mr-3">
+                    <i class="fa-solid fa-minus"></i>
+                </span>
+                <span class="uppercase text-xs text-[#ffb703] font-medium">About Me</span>
+            </div>
+            <div class="flex relative w-full mx-auto ">
+                <div class="bg-[#363852] w-full md:w-[90%] pb-16 lg:pt-16 ">
+                    <div class="lg:absolute md:right-20 lg:right-10 md:-mr-[10%] -mt-20 md:-mt-36 lg:-mr-[4%]">
+                        <img class="block mx-auto h-80 md:h-96 max-w-lg" src="/image/mee.jpg" alt="">
+                    </div>
+                    <div
+                        class="max-w-3xl md:max-w-4xl xl:max-w-[67rem] mt-12 xl:mt-0 md:pl-20 px-10 lg:pr-[16%] xl:pr-[14%] ">
+                        <div class="w-full lg:w-[90%]">
+                            <h2 class="max-w-xl text-4xl text-white hover:text-[#ffb703] font-heading">About Myself</h2>
+                            <p class="text-md pt-8 leading-8 text-[#8b8c89] lg:pr-16  mb-18"> Hi, I'm Pratiksha
+                                Chapagai, and I
+                                graduated from Islington College(UK affiliate) of Kathmandu, Nepal in 2022 with a degree
+                                in BSc(Hons) Computer Networking & IT Security. Although, my degree is in networking
+                                field, web developement grabbed my interest and I started learning web developing
+                                courses
+                                on my own and now I am working as a frontend developer. 1 year of experience as a
+                                frontend developer is not so imposing but also I had worked in numerous projects and
+                                would love to take on any
+                                challenges
+                                that is presented to me and find a way to
+                                overcome
+                                it along with the ways to improve my skills and learn new technologies.
+                            </p>
+                            <p class="text-2xl  pt-7 font-semibold lg:pr-16 text-[#ffb703] mb-18"> " I will be
+                                always
+                                seeking for the
+                                great
+                                challenges! "
+                            </p>
+                        </div>
+                    </div>
+                    <!-- <button class="absolute right-20 px-6 py-14 font-bold rounded-[100%] bg-[#f5cb5c]"> Download
+                        CV</button> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact-me" class="relative py-20 md:py-32">
+        <img class="hidden md:block absolute top-12 left-0 object-cover object-top opacity-20 w-full h-96"
+            src="/image/map-removebg-preview (1).png" alt="">
+        <div class="relative contact-container px-5 lg:px-20 xl:px-28">
+            <div class="inline-flex pb-5 items-center">
+                <span class="inline-block text-[#ffb703] mr-3">
+                    <i class="fa-solid fa-minus"></i>
+                </span>
+                <span class="uppercase text-xs text-[#ffb703] font-medium">Contact Me</span>
+            </div>
+            <h1 class="text-2xl sm:text-3xl md:text-3xl lg:text-4xl xl:text-5xl text-white font-heading
+                pb-4">
+                Let's Discuss About </h1>
+            <h1 class="text-2xl sm:text-3xl md:text-3xl lg:text-4xl xl:text-5xl text-white font-heading pb-8 ">Your
+                Needs
+            </h1>
+            <div class="flex flex-wrap mt-10">
+                <div class="w-full lg:w-1/3 px-4 mb-8 lg:mb-0">
+                    <div class="address shadow-lg cursor-pointer h-full max-w-sm mx-auto p-8 rounded">
+                        <div class="max-w-xxs mx-auto text-center">
+                            <h5 class="font-heading font-medium text-gray-300 text-xl mb-8">Address</h5>
+                            <a href="https://goo.gl/maps/9toMJXUDicdYFwty6" target="_blank"
+                                class="flex items-center justify-center w-14 h-14 mx-auto mb-6 border border-[#ffb703] hover:border-[#fb8500] rounded-full">
+                                <svg width="18" height="21" viewBox="0 0 18 21" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M8.94336 1.7393C4.70278 1.7249 1.25342 5.15089 1.23901 9.39148V9.41756C1.30918 11.4599 2.01436 13.4296 3.2564 15.0523C4.64995 16.9133 6.36008 18.5145 8.30858 19.7828C8.65807 20.0851 9.17648 20.0851 9.52597 19.7828C10.833 18.939 12.0381 17.9469 13.1173 16.8263C15.0042 14.835 16.5434 12.2871 16.5955 9.53061V9.44365C16.6099 5.20306 13.1839 1.75371 8.94336 1.7393ZM8.99988 13.0002C10.9329 13.0002 12.4999 11.4332 12.4999 9.50024C12.4999 7.56725 10.9329 6.00024 8.99988 6.00024C7.06688 6.00024 5.49988 7.56725 5.49988 9.50024C5.49988 11.4332 7.06688 13.0002 8.99988 13.0002Z"
+                                        fill="#ffb703"></path>
+                                    <path
+                                        d="M1.23901 9.39148L0.489014 9.38893V9.39148H1.23901ZM8.94336 1.7393L8.94081 2.4893L8.94336 1.7393ZM1.23901 9.41756H0.489014C0.489014 9.42615 0.489161 9.43473 0.489456 9.44332L1.23901 9.41756ZM3.2564 15.0523L3.85677 14.6028L3.85198 14.5965L3.2564 15.0523ZM8.30858 19.7828L8.79923 19.2155C8.77348 19.1933 8.74625 19.1728 8.71771 19.1542L8.30858 19.7828ZM9.52597 19.7828L9.11919 19.1527C9.0898 19.1717 9.06177 19.1927 9.03532 19.2155L9.52597 19.7828ZM13.1173 16.8263L13.6575 17.3465L13.6617 17.3421L13.1173 16.8263ZM16.5955 9.53061L17.3454 9.5448C17.3455 9.54007 17.3455 9.53534 17.3455 9.53061H16.5955ZM16.5955 9.44365L15.8455 9.4411V9.44365H16.5955ZM1.98901 9.39403C2.00201 5.56765 5.11444 2.4763 8.94081 2.4893L8.94591 0.989307C4.29111 0.973493 0.504833 4.73413 0.489018 9.38893L1.98901 9.39403ZM1.98901 9.41756V9.39148H0.489014V9.41756H1.98901ZM3.85198 14.5965C2.70474 13.0976 2.05338 11.2783 1.98857 9.39181L0.489456 9.44332C0.564977 11.6415 1.32399 13.7615 2.66083 15.5082L3.85198 14.5965ZM8.71771 19.1542C6.84296 17.9339 5.19755 16.3933 3.85674 14.6028L2.65607 15.5019C4.10235 17.4333 5.87721 19.0951 7.89945 20.4114L8.71771 19.1542ZM9.03532 19.2155C8.96754 19.2742 8.86701 19.2742 8.79923 19.2155L7.81792 20.35C8.44914 20.896 9.38541 20.896 10.0166 20.35L9.03532 19.2155ZM12.577 16.306C11.538 17.385 10.3777 18.3402 9.11919 19.1527L9.93275 20.4129C11.2884 19.5377 12.5383 18.5088 13.6575 17.3465L12.577 16.306ZM15.8457 9.51641C15.7985 12.0068 14.3986 14.3837 12.5729 16.3104L13.6617 17.3421C15.6099 15.2862 17.2882 12.5674 17.3454 9.5448L15.8457 9.51641ZM15.8455 9.44365V9.53061H17.3455V9.44365H15.8455ZM8.94081 2.4893C12.7672 2.5023 15.8585 5.61473 15.8455 9.4411L17.3455 9.4462C17.3613 4.7914 13.6007 1.00512 8.94591 0.989307L8.94081 2.4893ZM11.7499 9.50024C11.7499 11.019 10.5187 12.2502 8.99988 12.2502V13.7502C11.3471 13.7502 13.2499 11.8475 13.2499 9.50024H11.7499ZM8.99988 6.75024C10.5187 6.75024 11.7499 7.98146 11.7499 9.50024H13.2499C13.2499 7.15303 11.3471 5.25024 8.99988 5.25024V6.75024ZM6.24988 9.50024C6.24988 7.98146 7.48109 6.75024 8.99988 6.75024V5.25024C6.65267 5.25024 4.74988 7.15303 4.74988 9.50024H6.24988ZM8.99988 12.2502C7.48109 12.2502 6.24988 11.019 6.24988 9.50024H4.74988C4.74988 11.8475 6.65267 13.7502 8.99988 13.7502V12.2502Z"
+                                        fill="#ffb703"></path>
+                                </svg>
+                            </a>
+                            <p class="text-gray-400 leading-6">Bhaisepati, Lalitpur</p>
+                            <p class="text-gray-400 leading-6">Baneshwor, Kathmandu</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full lg:w-1/3 px-4 mb-8 lg:mb-0">
+                    <div class="cursor-pointer shadow-lg contact-info h-full max-w-sm mx-auto p-8 rounded">
+                        <div class="max-w-xxs mx-auto text-center">
+                            <h5 class="font-heading font-medium text-gray-300 text-lg mb-8">Contact info</h5>
+                            <a href="tel:+977 9867379894">
+                                <div
+                                    class="flex items-center justify-center w-14 h-14 mx-auto mb-6 border border-[#ffb703] hover:border-[#fb8500] rounded-full">
+                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M0.990332 2.87254C1.30665 2.34878 3.0495 0.443765 4.29322 0.501275C4.665 0.532084 4.99364 0.756989 5.26067 1.01784C5.87379 1.61656 7.62896 3.88101 7.72859 4.35753C7.97096 5.52621 6.57833 6.1999 7.00454 7.37783C8.09112 10.0366 9.96337 11.9088 12.6233 12.9943C13.8003 13.4205 14.474 12.0279 15.6428 12.2713C16.1183 12.3709 18.3839 14.126 18.9826 14.7391C19.2425 15.0051 19.4684 15.3347 19.4992 15.7065C19.5454 17.0159 17.5222 18.7833 17.1278 19.0092C16.1974 19.6747 14.9834 19.6634 13.5035 18.9753C9.37387 17.2572 2.77426 10.7822 1.02422 6.49669C0.354608 5.02505 0.308393 3.80296 0.990332 2.87254Z"
+                                            fill="#ffb703"></path>
+                                    </svg>
+                                </div>
+                            </a>
+                            <p class="text-gray-400 leading-6"><a
+                                    href="mailto:pratiksha.chapagai5@gmail.com">Pratiksha.chapagai5@gmail.com</a></p>
+                            <p class="text-gray-400 leading-6"><a href="tel:+977 9867379894">+977 9867379894</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full lg:w-1/3 px-4">
+                    <div class="social-media shadow-lg cursor-pointer h-full max-w-sm mx-auto p-8 rounded">
+                        <div class="max-w-xxs mx-auto text-center">
+                            <h5 class="font-heading text-gray-300 font-medium text-lg mb-8">Social media</h5>
+                            <div class="flex mb-6 items-center justify-center">
+                                <a class="inline-flex mr-4 items-center justify-center w-14 h-14 border border-[#ffb703] hover:border-[#fb8500] rounded-full"
+                                    href="https://www.facebook.com/yua.chan.33" target="_blank">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M13.6349 20.7275V12.7662H16.3583L16.7669 9.66268H13.6349V7.6815C13.6349 6.78323 13.8882 6.17107 15.203 6.17107L16.8771 6.1704V3.39446C16.5876 3.35756 15.5938 3.27295 14.4371 3.27295C12.0217 3.27295 10.3681 4.71903 10.3681 7.37413V9.66268H7.63647V12.7662H10.3681V20.7275H13.6349Z"
+                                            fill="#ffb703"></path>
+                                        <mask id="mask0_149_2742" style="mask-type:alpha" maskUnits="userSpaceOnUse"
+                                            x="7" y="3" width="10" height="18">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M13.6349 20.7275V12.7662H16.3583L16.7669 9.66268H13.6349V7.6815C13.6349 6.78323 13.8882 6.17107 15.203 6.17107L16.8771 6.1704V3.39446C16.5876 3.35756 15.5938 3.27295 14.4371 3.27295C12.0217 3.27295 10.3681 4.71903 10.3681 7.37413V9.66268H7.63647V12.7662H10.3681V20.7275H13.6349Z"
+                                                fill="white"></path>
+                                        </mask>
+                                    </svg>
+                                </a>
+                                <a class="inline-flex mr-4 items-center justify-center w-14 h-14 border border-[#ffb703] hover:border-[#fb8500] rounded-full"
+                                    href="https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fpratiksha-chapagai-0762aa232%3Ffbclid%3DIwAR2lALaFHkJlMiwRlTms_FxC_x9gNkvN2ufdaht7OdnOGXAfjFmPKKwt5UE&h=AT3B7SW_yXagU85PjHnWaO-RD6zZGoht4qdgTN_vJsRVAjbc1CSurTLOptOrRp6QN4TkrssX-riK2WQN__VhjO6_zJhC52lc835tRAfim8PGlf2Aup6aeBAHe01sHvA03urDNg"
+                                    target="_blank">
+                                    <svg width="24" height="24" viewBox="0 0 16 16" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M12.8 2H3.2C2.54 2 2 2.54 2 3.2V12.8C2 13.46 2.54 14 3.2 14H12.8C13.46 14 14 13.46 14 12.8V3.2C14 2.54 13.46 2 12.8 2ZM5.6 12.2H3.8V6.8H5.6V12.2ZM4.7 5.78C4.1 5.78 3.62 5.3 3.62 4.7C3.62 4.1 4.1 3.62 4.7 3.62C5.3 3.62 5.78 4.1 5.78 4.7C5.78 5.3 5.3 5.78 4.7 5.78ZM12.2 12.2H10.4V9.02C10.4 8.54002 9.98 8.12 9.5 8.12C9.02 8.12 8.6 8.54002 8.6 9.02V12.2H6.8V6.8H8.6V7.52C8.9 7.04 9.56 6.68 10.1 6.68C11.24 6.68 12.2 7.64 12.2 8.78V12.2Z"
+                                            fill="#ffb703"></path>
+                                    </svg>
+                                </a>
+                                <a class="inline-flex mr-4 items-center justify-center w-14 h-14 border border-[#ffb703] hover:border-[#fb8500] rounded-full"
+                                    href="https://l.facebook.com/l.php?u=https%3A%2F%2Finstagram.com%2Fig_izumi.don%3Figshid%3DYmMyMTA2M2Y%253D%26fbclid%3DIwAR2j0upXK66IXt7CNlBRs3V0BLg7P6SsJ3QL8EoWmklUxtIVWCWxbS9s3Fw&h=AT3B7SW_yXagU85PjHnWaO-RD6zZGoht4qdgTN_vJsRVAjbc1CSurTLOptOrRp6QN4TkrssX-riK2WQN__VhjO6_zJhC52lc835tRAfim8PGlf2Aup6aeBAHe01sHvA03urDNg"
+                                    target="_blank">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M7.6007 2.18164H16.3992C19.3874 2.18164 21.8184 4.61264 21.8182 7.60057V16.3991C21.8182 19.387 19.3874 21.818 16.3992 21.818H7.6007C4.61276 21.818 2.18188 19.3871 2.18188 16.3991V7.60057C2.18188 4.61264 4.61276 2.18164 7.6007 2.18164ZM16.3993 20.0758C18.4267 20.0758 20.0761 18.4265 20.0761 16.3991H20.076V7.60057C20.076 5.5733 18.4266 3.92387 16.3992 3.92387H7.6007C5.57343 3.92387 3.92412 5.5733 3.92412 7.60057V16.3991C3.92412 18.4265 5.57343 20.0759 7.6007 20.0758H16.3993ZM6.85721 11.9999C6.85721 9.16406 9.16425 6.85697 12.0001 6.85697C14.8359 6.85697 17.1429 9.16406 17.1429 11.9999C17.1429 14.8357 14.8359 17.1427 12.0001 17.1427C9.16425 17.1427 6.85721 14.8357 6.85721 11.9999ZM8.62805 11.9998C8.62805 13.8591 10.1408 15.3717 12.0001 15.3717C13.8593 15.3717 15.3721 13.8591 15.3721 11.9998C15.3721 10.1404 13.8594 8.62772 12.0001 8.62772C10.1407 8.62772 8.62805 10.1404 8.62805 11.9998Z"
+                                            fill="#ffb703"></path>
+                                        <mask id="mask0_149_2749" style="mask-type:alpha" maskUnits="userSpaceOnUse"
+                                            x="2" y="2" width="20" height="20">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M7.6007 2.18164H16.3992C19.3874 2.18164 21.8184 4.61264 21.8182 7.60057V16.3991C21.8182 19.387 19.3874 21.818 16.3992 21.818H7.6007C4.61276 21.818 2.18188 19.3871 2.18188 16.3991V7.60057C2.18188 4.61264 4.61276 2.18164 7.6007 2.18164ZM16.3993 20.0758C18.4267 20.0758 20.0761 18.4265 20.0761 16.3991H20.076V7.60057C20.076 5.5733 18.4266 3.92387 16.3992 3.92387H7.6007C5.57343 3.92387 3.92412 5.5733 3.92412 7.60057V16.3991C3.92412 18.4265 5.57343 20.0759 7.6007 20.0758H16.3993ZM6.85721 11.9999C6.85721 9.16406 9.16425 6.85697 12.0001 6.85697C14.8359 6.85697 17.1429 9.16406 17.1429 11.9999C17.1429 14.8357 14.8359 17.1427 12.0001 17.1427C9.16425 17.1427 6.85721 14.8357 6.85721 11.9999ZM8.62805 11.9998C8.62805 13.8591 10.1408 15.3717 12.0001 15.3717C13.8593 15.3717 15.3721 13.8591 15.3721 11.9998C15.3721 10.1404 13.8594 8.62772 12.0001 8.62772C10.1407 8.62772 8.62805 10.1404 8.62805 11.9998Z"
+                                                fill="white"></path>
+                                        </mask>
+                                    </svg>
+                                </a>
+                            </div>
+                            <p class="text-gray-400 leading-6">Stay in touch!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="md:pt-28 py-16  bg-[#1c1c31] md:pb-32 ">
+        <div class="footer-container px-5 lg:px-20 xl:px-28">
+            <div class="relative flex flex-wrap justify-center md:justify-between items-center md:mb-24">
+                <div class="w-full md:hidden mb-12 text-center">
+                    <a class="inline-block" href="index.html">
+                        <img class="h-16" src="/image/logo.png" alt="">
+                    </a>
+                </div>
+                <div class="w-auto sm:w-auto sm:mb-0 sm:mr-16 mr-7 text-center">
+                    <a class="inline-block sm:mr-16 mr-7 text-center font-heading hover:text-[#ffb703] text-white"
+                        href="#about-me">About</a>
+                    <a class="inline-block text-center font-heading hover:text-[#ffb703] text-white"
+                        href="#projects">Projects</a>
+                </div>
+                <div class="absolute hidden md:block top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-auto">
+                    <a class="inline-block" href="index.html">
+                        <img class="h-16" src="/image/logo.png" alt="logo of pratiksha">
+                    </a>
+                </div>
+                <div class="w-auto sm:w-auto text-center">
+                    <a class="inline-block text-center mr-7 sm:mr-16 hover:text-[#ffb703] font-heading text-white"
+                        href="#contact-me">Contacts</a>
+                    <a class="inline-block hover:text-[#ffb703] text-center font-heading text-white"
+                        href="#skills">Skills</a>
+                </div>
+                <div class="w-full md:hidden mt-12">
+                    <div class="flex flex-wrap items-center justify-center -mb-2">
+                        <a class="flex items-center justify-center w-12 h-12 mb-2 mr-2 rounded-full bg-gray-800 hover:bg-gray-700"
+                            href="https://www.facebook.com/yua.chan.33" target="_blank">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M9.08979 13.8181V8.51062H10.9054L11.1778 6.44158H9.08979V5.1208C9.08979 4.52195 9.25864 4.11384 10.1352 4.11384L11.2512 4.11339V2.26277C11.0582 2.23817 10.3957 2.18176 9.62456 2.18176C8.01431 2.18176 6.9119 3.14582 6.9119 4.91588V6.44158H5.09082V8.51062H6.9119V13.8181H9.08979Z"
+                                    fill="#ffb703"></path>
+                                <mask id="mask0_37_110" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="5" y="2"
+                                    width="7" height="12">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M9.08979 13.8181V8.51062H10.9054L11.1778 6.44158H9.08979V5.1208C9.08979 4.52195 9.25864 4.11384 10.1352 4.11384L11.2512 4.11339V2.26277C11.0582 2.23817 10.3957 2.18176 9.62456 2.18176C8.01431 2.18176 6.9119 3.14582 6.9119 4.91588V6.44158H5.09082V8.51062H6.9119V13.8181H9.08979Z"
+                                        fill="#ffb703"></path>
+                                </mask>
+                            </svg>
+                        </a>
+                        <a class="flex items-center justify-center w-12 h-12 mb-2 mr-2 rounded-full bg-gray-800 hover:bg-gray-700"
+                            href="https://l.facebook.com/l.php?u=https%3A%2F%2Finstagram.com%2Fig_izumi.don%3Figshid%3DYmMyMTA2M2Y%253D%26fbclid%3DIwAR2j0upXK66IXt7CNlBRs3V0BLg7P6SsJ3QL8EoWmklUxtIVWCWxbS9s3Fw&h=AT3B7SW_yXagU85PjHnWaO-RD6zZGoht4qdgTN_vJsRVAjbc1CSurTLOptOrRp6QN4TkrssX-riK2WQN__VhjO6_zJhC52lc835tRAfim8PGlf2Aup6aeBAHe01sHvA03urDNg"
+                            target="_blank">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M5.06713 1.45459H10.9328C12.9249 1.45459 14.5456 3.07525 14.5455 5.06721V10.9329C14.5455 12.9248 12.9249 14.5455 10.9328 14.5455H5.06713C3.07518 14.5455 1.45459 12.9249 1.45459 10.9329V5.06721C1.45459 3.07525 3.07518 1.45459 5.06713 1.45459ZM10.9329 13.384C12.2845 13.384 13.3841 12.2845 13.3841 10.9329H13.384V5.06721C13.384 3.7157 12.2844 2.61608 10.9328 2.61608H5.06713C3.71562 2.61608 2.61608 3.7157 2.61608 5.06721V10.9329C2.61608 12.2845 3.71562 13.3841 5.06713 13.384H10.9329ZM4.57147 8.00012C4.57147 6.10954 6.1095 4.57147 8.00004 4.57147C9.89059 4.57147 11.4286 6.10954 11.4286 8.00012C11.4286 9.89063 9.89059 11.4286 8.00004 11.4286C6.1095 11.4286 4.57147 9.89063 4.57147 8.00012ZM5.75203 8.00004C5.75203 9.23958 6.76054 10.248 8.00005 10.248C9.23955 10.248 10.2481 9.23958 10.2481 8.00004C10.2481 6.76043 9.23963 5.75198 8.00005 5.75198C6.76046 5.75198 5.75203 6.76043 5.75203 8.00004Z"
+                                    fill="#ffb703"></path>
+                                <mask id="mask0_37_116" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="1" y="1"
+                                    width="14" height="14">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M5.06713 1.45459H10.9328C12.9249 1.45459 14.5456 3.07525 14.5455 5.06721V10.9329C14.5455 12.9248 12.9249 14.5455 10.9328 14.5455H5.06713C3.07518 14.5455 1.45459 12.9249 1.45459 10.9329V5.06721C1.45459 3.07525 3.07518 1.45459 5.06713 1.45459ZM10.9329 13.384C12.2845 13.384 13.3841 12.2845 13.3841 10.9329H13.384V5.06721C13.384 3.7157 12.2844 2.61608 10.9328 2.61608H5.06713C3.71562 2.61608 2.61608 3.7157 2.61608 5.06721V10.9329C2.61608 12.2845 3.71562 13.3841 5.06713 13.384H10.9329ZM4.57147 8.00012C4.57147 6.10954 6.1095 4.57147 8.00004 4.57147C9.89059 4.57147 11.4286 6.10954 11.4286 8.00012C11.4286 9.89063 9.89059 11.4286 8.00004 11.4286C6.1095 11.4286 4.57147 9.89063 4.57147 8.00012ZM5.75203 8.00004C5.75203 9.23958 6.76054 10.248 8.00005 10.248C9.23955 10.248 10.2481 9.23958 10.2481 8.00004C10.2481 6.76043 9.23963 5.75198 8.00005 5.75198C6.76046 5.75198 5.75203 6.76043 5.75203 8.00004Z"
+                                        fill="#ffb703"></path>
+                                </mask>
+                            </svg>
+                        </a>
+                        <a class="flex items-center justify-center w-12 h-12 mb-2 mr-2 rounded-full bg-gray-800 hover:bg-gray-700"
+                            href="https://github.com/Pratikshachan" target="_blank">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M8 2C4.685 2 2 4.75474 2 8.15226C2 10.871 3.719 13.1765 6.1025 13.9894C6.4025 14.0473 6.5125 13.8569 6.5125 13.6936C6.5125 13.5475 6.5075 13.1604 6.505 12.6475C4.836 13.0184 4.484 11.8221 4.484 11.8221C4.211 11.112 3.8165 10.9221 3.8165 10.9221C3.273 10.5407 3.8585 10.5486 3.8585 10.5486C4.461 10.5913 4.7775 11.1825 4.7775 11.1825C5.3125 12.1232 6.182 11.8513 6.525 11.6943C6.579 11.2962 6.7335 11.0254 6.905 10.8715C5.5725 10.7176 4.172 10.1886 4.172 7.83139C4.172 7.15992 4.4045 6.61106 4.7895 6.18063C4.722 6.02516 4.5195 5.3996 4.842 4.55231C4.842 4.55231 5.3445 4.38744 6.492 5.18308C6.972 5.04639 7.482 4.97856 7.992 4.97543C8.502 4.97856 9.012 5.04639 9.492 5.18308C10.632 4.38744 11.1345 4.55231 11.1345 4.55231C11.457 5.3996 11.2545 6.02516 11.1945 6.18063C11.577 6.61106 11.8095 7.15992 11.8095 7.83139C11.8095 10.1948 10.407 10.715 9.072 10.8663C9.282 11.051 9.477 11.4282 9.477 12.0047C9.477 12.828 9.4695 13.4896 9.4695 13.6894C9.4695 13.8506 9.5745 14.0431 9.882 13.9816C12.2825 13.1739 14 10.8668 14 8.15226C14 4.75474 11.3135 2 8 2V2Z"
+                                    fill="#ffb703"></path>
+                            </svg>
+                        </a>
+                        <a class="flex items-center justify-center w-12 h-12 mb-2 rounded-full bg-gray-800 hover:bg-gray-700"
+                            href="https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fpratiksha-chapagai-0762aa232%3Ffbclid%3DIwAR2lALaFHkJlMiwRlTms_FxC_x9gNkvN2ufdaht7OdnOGXAfjFmPKKwt5UE&h=AT3B7SW_yXagU85PjHnWaO-RD6zZGoht4qdgTN_vJsRVAjbc1CSurTLOptOrRp6QN4TkrssX-riK2WQN__VhjO6_zJhC52lc835tRAfim8PGlf2Aup6aeBAHe01sHvA03urDNg"
+                            target="_blank">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M12.8 2H3.2C2.54 2 2 2.54 2 3.2V12.8C2 13.46 2.54 14 3.2 14H12.8C13.46 14 14 13.46 14 12.8V3.2C14 2.54 13.46 2 12.8 2ZM5.6 12.2H3.8V6.8H5.6V12.2ZM4.7 5.78C4.1 5.78 3.62 5.3 3.62 4.7C3.62 4.1 4.1 3.62 4.7 3.62C5.3 3.62 5.78 4.1 5.78 4.7C5.78 5.3 5.3 5.78 4.7 5.78ZM12.2 12.2H10.4V9.02C10.4 8.54002 9.98 8.12 9.5 8.12C9.02 8.12 8.6 8.54002 8.6 9.02V12.2H6.8V6.8H8.6V7.52C8.9 7.04 9.56 6.68 10.1 6.68C11.24 6.68 12.2 7.64 12.2 8.78V12.2Z"
+                                    fill="#ffb703"></path>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class=" mt-6 text-center  ">
+                        <span class="mt-6 hover:text-[#ffb703] sm:mt-0 text-gray-300">&#169 2023 Pratiksha
+                            Chapagai. All rights reserved.</span>
+                    </div>
+                </div>
+            </div>
+            <div class="relative flex justify-between items-center">
+                <div class="hidden md:block absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-auto">
+                    <div class="flex items-center justify-center">
+                        <a class="flex items-center justify-center w-12 h-12 mr-2 rounded-full bg-gray-800 hover:bg-gray-700"
+                            href="https://www.facebook.com/yua.chan.33" target="_blank">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M9.08979 13.8181V8.51062H10.9054L11.1778 6.44158H9.08979V5.1208C9.08979 4.52195 9.25864 4.11384 10.1352 4.11384L11.2512 4.11339V2.26277C11.0582 2.23817 10.3957 2.18176 9.62456 2.18176C8.01431 2.18176 6.9119 3.14582 6.9119 4.91588V6.44158H5.09082V8.51062H6.9119V13.8181H9.08979Z"
+                                    fill="#ffb703"></path>
+                                <mask id="mask0_37_110" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="5" y="2"
+                                    width="7" height="12">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M9.08979 13.8181V8.51062H10.9054L11.1778 6.44158H9.08979V5.1208C9.08979 4.52195 9.25864 4.11384 10.1352 4.11384L11.2512 4.11339V2.26277C11.0582 2.23817 10.3957 2.18176 9.62456 2.18176C8.01431 2.18176 6.9119 3.14582 6.9119 4.91588V6.44158H5.09082V8.51062H6.9119V13.8181H9.08979Z"
+                                        fill="#ffb703"></path>
+                                </mask>
+                            </svg>
+                        </a>
+                        <a class="flex items-center justify-center w-12 h-12 mr-2 rounded-full bg-gray-800 hover:bg-gray-700"
+                            href="https://l.facebook.com/l.php?u=https%3A%2F%2Finstagram.com%2Fig_izumi.don%3Figshid%3DYmMyMTA2M2Y%253D%26fbclid%3DIwAR2j0upXK66IXt7CNlBRs3V0BLg7P6SsJ3QL8EoWmklUxtIVWCWxbS9s3Fw&h=AT3B7SW_yXagU85PjHnWaO-RD6zZGoht4qdgTN_vJsRVAjbc1CSurTLOptOrRp6QN4TkrssX-riK2WQN__VhjO6_zJhC52lc835tRAfim8PGlf2Aup6aeBAHe01sHvA03urDNg"
+                            target="_blank">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M5.06713 1.45459H10.9328C12.9249 1.45459 14.5456 3.07525 14.5455 5.06721V10.9329C14.5455 12.9248 12.9249 14.5455 10.9328 14.5455H5.06713C3.07518 14.5455 1.45459 12.9249 1.45459 10.9329V5.06721C1.45459 3.07525 3.07518 1.45459 5.06713 1.45459ZM10.9329 13.384C12.2845 13.384 13.3841 12.2845 13.3841 10.9329H13.384V5.06721C13.384 3.7157 12.2844 2.61608 10.9328 2.61608H5.06713C3.71562 2.61608 2.61608 3.7157 2.61608 5.06721V10.9329C2.61608 12.2845 3.71562 13.3841 5.06713 13.384H10.9329ZM4.57147 8.00012C4.57147 6.10954 6.1095 4.57147 8.00004 4.57147C9.89059 4.57147 11.4286 6.10954 11.4286 8.00012C11.4286 9.89063 9.89059 11.4286 8.00004 11.4286C6.1095 11.4286 4.57147 9.89063 4.57147 8.00012ZM5.75203 8.00004C5.75203 9.23958 6.76054 10.248 8.00005 10.248C9.23955 10.248 10.2481 9.23958 10.2481 8.00004C10.2481 6.76043 9.23963 5.75198 8.00005 5.75198C6.76046 5.75198 5.75203 6.76043 5.75203 8.00004Z"
+                                    fill="#ffb703"></path>
+                                <mask id="mask0_37_116" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="1" y="1"
+                                    width="14" height="14">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M5.06713 1.45459H10.9328C12.9249 1.45459 14.5456 3.07525 14.5455 5.06721V10.9329C14.5455 12.9248 12.9249 14.5455 10.9328 14.5455H5.06713C3.07518 14.5455 1.45459 12.9249 1.45459 10.9329V5.06721C1.45459 3.07525 3.07518 1.45459 5.06713 1.45459ZM10.9329 13.384C12.2845 13.384 13.3841 12.2845 13.3841 10.9329H13.384V5.06721C13.384 3.7157 12.2844 2.61608 10.9328 2.61608H5.06713C3.71562 2.61608 2.61608 3.7157 2.61608 5.06721V10.9329C2.61608 12.2845 3.71562 13.3841 5.06713 13.384H10.9329ZM4.57147 8.00012C4.57147 6.10954 6.1095 4.57147 8.00004 4.57147C9.89059 4.57147 11.4286 6.10954 11.4286 8.00012C11.4286 9.89063 9.89059 11.4286 8.00004 11.4286C6.1095 11.4286 4.57147 9.89063 4.57147 8.00012ZM5.75203 8.00004C5.75203 9.23958 6.76054 10.248 8.00005 10.248C9.23955 10.248 10.2481 9.23958 10.2481 8.00004C10.2481 6.76043 9.23963 5.75198 8.00005 5.75198C6.76046 5.75198 5.75203 6.76043 5.75203 8.00004Z"
+                                        fill="#ffb703"></path>
+                                </mask>
+                            </svg>
+                        </a>
+                        <a class="flex items-center justify-center w-12 h-12 mr-2 rounded-full bg-gray-800 hover:bg-gray-700"
+                            href="https://github.com/Pratikshachan" target="_blank">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M8 2C4.685 2 2 4.75474 2 8.15226C2 10.871 3.719 13.1765 6.1025 13.9894C6.4025 14.0473 6.5125 13.8569 6.5125 13.6936C6.5125 13.5475 6.5075 13.1604 6.505 12.6475C4.836 13.0184 4.484 11.8221 4.484 11.8221C4.211 11.112 3.8165 10.9221 3.8165 10.9221C3.273 10.5407 3.8585 10.5486 3.8585 10.5486C4.461 10.5913 4.7775 11.1825 4.7775 11.1825C5.3125 12.1232 6.182 11.8513 6.525 11.6943C6.579 11.2962 6.7335 11.0254 6.905 10.8715C5.5725 10.7176 4.172 10.1886 4.172 7.83139C4.172 7.15992 4.4045 6.61106 4.7895 6.18063C4.722 6.02516 4.5195 5.3996 4.842 4.55231C4.842 4.55231 5.3445 4.38744 6.492 5.18308C6.972 5.04639 7.482 4.97856 7.992 4.97543C8.502 4.97856 9.012 5.04639 9.492 5.18308C10.632 4.38744 11.1345 4.55231 11.1345 4.55231C11.457 5.3996 11.2545 6.02516 11.1945 6.18063C11.577 6.61106 11.8095 7.15992 11.8095 7.83139C11.8095 10.1948 10.407 10.715 9.072 10.8663C9.282 11.051 9.477 11.4282 9.477 12.0047C9.477 12.828 9.4695 13.4896 9.4695 13.6894C9.4695 13.8506 9.5745 14.0431 9.882 13.9816C12.2825 13.1739 14 10.8668 14 8.15226C14 4.75474 11.3135 2 8 2V2Z"
+                                    fill="#ffb703"></path>
+                            </svg>
+                        </a>
+                        <a class="flex items-center justify-center w-12 h-12 rounded-full bg-gray-800 hover:bg-gray-700"
+                            href="https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fpratiksha-chapagai-0762aa232%3Ffbclid%3DIwAR2lALaFHkJlMiwRlTms_FxC_x9gNkvN2ufdaht7OdnOGXAfjFmPKKwt5UE&h=AT3B7SW_yXagU85PjHnWaO-RD6zZGoht4qdgTN_vJsRVAjbc1CSurTLOptOrRp6QN4TkrssX-riK2WQN__VhjO6_zJhC52lc835tRAfim8PGlf2Aup6aeBAHe01sHvA03urDNg"
+                            target="_blank">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M12.8 2H3.2C2.54 2 2 2.54 2 3.2V12.8C2 13.46 2.54 14 3.2 14H12.8C13.46 14 14 13.46 14 12.8V3.2C14 2.54 13.46 2 12.8 2ZM5.6 12.2H3.8V6.8H5.6V12.2ZM4.7 5.78C4.1 5.78 3.62 5.3 3.62 4.7C3.62 4.1 4.1 3.62 4.7 3.62C5.3 3.62 5.78 4.1 5.78 4.7C5.78 5.3 5.3 5.78 4.7 5.78ZM12.2 12.2H10.4V9.02C10.4 8.54002 9.98 8.12 9.5 8.12C9.02 8.12 8.6 8.54002 8.6 9.02V12.2H6.8V6.8H8.6V7.52C8.9 7.04 9.56 6.68 10.1 6.68C11.24 6.68 12.2 7.64 12.2 8.78V12.2Z"
+                                    fill="#ffb703"></path>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class=" mt-6 text-center  ">
+                        <span class="mt-6 sm:mt-0 text-gray-300">&#169 2023 Pratiksha
+                            Chapagai. All rights reserved.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js">
+    </script>
+    <script src=" https://smtpjs.com/v3/smtp.js"></script>
+    <script src="/src/main.js"></script>
+
+</body>
+
+</html>
